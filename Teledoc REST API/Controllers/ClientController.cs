@@ -10,11 +10,6 @@ using Teledoc_REST_API.Responses;
 using Teledoc_REST_API.Templates;
 using Teledoc_REST_API.Models;
 
-/* 
- TODO:
-    Сделать чтобы DateCreation было доступно сразу после создания
- */
-
 namespace Teledoc_REST_API.Controllers
 {
     [ApiController]
