@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9IyLKn56dQ4fLuZnVMw83k0lIdmGXpknVF69RJBLIPw=",
+  "Source": "Teledoc REST API",
+  "BasePath": "_content/Teledoc REST API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

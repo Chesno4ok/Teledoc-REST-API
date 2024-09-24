@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Teledoc REST API.props" />
+</Project>
