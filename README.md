@@ -6,7 +6,7 @@
 
 ### Стек технологий
 
-- **База данных:** PostgreSQL
+- **База данных:** PostgreSQL (Дамп базы данных ("TeledocDatabase") находится в корневой папке)
 - **ORM:** Entity Framework
 - **Библиотеки:**
   - Newtonsoft JSON
