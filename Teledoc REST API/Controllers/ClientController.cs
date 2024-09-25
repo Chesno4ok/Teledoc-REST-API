@@ -112,12 +112,6 @@ namespace Teledoc_REST_API.Controllers
 
             dbContext.SaveChanges();
 
-            var newClient = dbContext.Clients
-                .Include(i => i.ClientTypeNavigation)
-                .FirstOrDefault(i => i.Id == client.Id);
-
-
-
             return GetClient(client.Id);
         }
 
