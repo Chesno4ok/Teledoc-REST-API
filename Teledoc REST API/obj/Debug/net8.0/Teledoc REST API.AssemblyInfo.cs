@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Teledoc REST API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cfef6cf017a14391cc42b7c1223500dc0169a03")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+945d37459886da70d2406f007e5946d5901bb90d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Teledoc REST API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Teledoc REST API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -29,7 +29,6 @@ public partial class TeledocContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #error Вставьте сюда строку подключения
         => optionsBuilder.UseNpgsql("[CONNECTION STRING HERE]");
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<AuthorizationRight>(entity =>

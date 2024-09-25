@@ -42,7 +42,7 @@ namespace Teledoc_REST_API.Controllers
             using var dbContext = new TeledocContext();
 
             var founder = dbContext.Founders
-                .Include(i => i.Client)
+                .Include(i => i.Client.ClientTypeNavigation)
                 .FirstOrDefault(i => i.Id == founderId);
 
             return Ok(mapper.Map<FounderResponse>(founder));
@@ -56,13 +56,16 @@ namespace Teledoc_REST_API.Controllers
         {
             using var dbContext = new TeledocContext();
 
+            if (founderTemplate.Id != null)
+                return BadRequest("Id must be null when creating a founder");
+
             var founder = mapper.Map<Founder>(founderTemplate);
 
             dbContext.Add(founder);
 
             dbContext.SaveChanges();
 
-            return Ok(mapper.Map<FounderResponse>(founder));
+            return GetFounder(founder.Id);
         }
 
         /// <summary>
@@ -80,12 +83,7 @@ namespace Teledoc_REST_API.Controllers
             newFounder = (Founder)mapper.Map(founderTemplate, newFounder, typeof(FounderTemplate), typeof(Founder));
             dbContext.SaveChanges();
 
-            var founder = dbContext.Founders
-                .Include(i => i.Client)
-                .Include(i => i.Client.ClientTypeNavigation)
-                .FirstOrDefault(i => i.Id == founderTemplate.Id);
-
-            return Ok(mapper.Map<FounderResponse>(founder));
+            return GetFounder(newFounder.Id);
         }
 
         /// <summary>

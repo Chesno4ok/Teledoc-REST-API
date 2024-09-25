@@ -108,6 +108,9 @@ namespace Teledoc_REST_API.Controllers
         {
             using var dbContext = new TeledocContext();
 
+            if (clientTemplate.Id != null)
+                return BadRequest(new TextResponse("Id must be null when creating a client"));
+
             var client = mapper.Map<Client>(clientTemplate);
 
             dbContext.Clients.Add(client);
@@ -118,7 +121,9 @@ namespace Teledoc_REST_API.Controllers
                 .Include(i => i.ClientTypeNavigation)
                 .FirstOrDefault(i => i.Id == client.Id);
 
-            return Ok(mapper.Map<ClientResponse>(newClient));
+
+
+            return GetClient(client.Id);
         }
 
         /// <summary>
@@ -153,6 +158,9 @@ namespace Teledoc_REST_API.Controllers
         {
             using var dbContext = new TeledocContext();
 
+            if(clientTemplate.Id == null)
+                return BadRequest(new TextResponse("Id cannot be null"));
+
             var newClient = dbContext.Clients
                 .Include(i => i.ClientTypeNavigation)
                 .Include(i => i.Founders)
@@ -162,14 +170,7 @@ namespace Teledoc_REST_API.Controllers
 
             dbContext.SaveChanges();
 
-
-            var client = dbContext.Clients
-                .Include(i => i.ClientTypeNavigation)
-                .Include(i => i.Founders)
-                .FirstOrDefault(i => i.Id == clientTemplate.Id);
-
-
-            return Ok(mapper.Map<ClientResponse>(client));
+            return GetClient(newClient.Id);
         }
 
     }

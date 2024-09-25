@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|c:\\users\\chesn\\yandexdisk\\repos\\n\\teledoc rest api\\teledoc rest api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|c:\\users\\chesn\\yandexdisk\\repos\\n\\teledoc rest api\\teledoc rest api\\teledoccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|solutionrelative:teledoc rest api\\teledoccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|c:\\users\\chesn\\yandexdisk\\repos\\n\\teledoc rest api\\teledoc rest api\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|solutionrelative:teledoc rest api\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|c:\\users\\chesn\\yandexdisk\\repos\\n\\teledoc rest api\\teledoc rest api\\middlewares\\authorizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|solutionrelative:teledoc rest api\\middlewares\\authorizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|c:\\users\\chesn\\yandexdisk\\repos\\n\\teledoc rest api\\teledoc rest api\\templates\\authorizationtokentemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|solutionrelative:teledoc rest api\\templates\\authorizationtokentemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\teledoc rest api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|solutionrelative:teledoc rest api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|c:\\users\\chesn\\yandexdisk\\repos\\n\\teledoc rest api\\teledoc rest api\\controllers\\foundercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|solutionrelative:teledoc rest api\\controllers\\foundercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|c:\\users\\chesn\\yandexdisk\\repos\\n\\teledoc rest api\\teledoc rest api\\templates\\foundertemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|solutionrelative:teledoc rest api\\templates\\foundertemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|c:\\users\\chesn\\yandexdisk\\repos\\n\\teledoc rest api\\teledoc rest api\\templates\\clienttemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9859B70-8C02-40F2-BC76-28D88A4C079A}|Teledoc REST API\\Teledoc REST API.csproj|solutionrelative:teledoc rest api\\templates\\clienttemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 491,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,15 +94,106 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthorizationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\Teledoc REST API\\Middlewares\\AuthorizationMiddleware.cs",
+              "RelativeDocumentMoniker": "Teledoc REST API\\Middlewares\\AuthorizationMiddleware.cs",
+              "ToolTip": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\Teledoc REST API\\Middlewares\\AuthorizationMiddleware.cs",
+              "RelativeToolTip": "Teledoc REST API\\Middlewares\\AuthorizationMiddleware.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowDAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T12:36:58.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FounderTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\Teledoc REST API\\Templates\\FounderTemplate.cs",
+              "RelativeDocumentMoniker": "Teledoc REST API\\Templates\\FounderTemplate.cs",
+              "ToolTip": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\Teledoc REST API\\Templates\\FounderTemplate.cs",
+              "RelativeToolTip": "Teledoc REST API\\Templates\\FounderTemplate.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAIwCQAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T11:50:09.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\Teledoc REST API\\Templates\\ClientTemplate.cs",
+              "RelativeDocumentMoniker": "Teledoc REST API\\Templates\\ClientTemplate.cs",
+              "ToolTip": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\Teledoc REST API\\Templates\\ClientTemplate.cs",
+              "RelativeToolTip": "Teledoc REST API\\Templates\\ClientTemplate.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T11:50:04.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorizationTokenTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\Teledoc REST API\\Templates\\AuthorizationTokenTemplate.cs",
+              "RelativeDocumentMoniker": "Teledoc REST API\\Templates\\AuthorizationTokenTemplate.cs",
+              "ToolTip": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\Teledoc REST API\\Templates\\AuthorizationTokenTemplate.cs",
+              "RelativeToolTip": "Teledoc REST API\\Templates\\AuthorizationTokenTemplate.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T12:00:22.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TeledocContext.cs",
+              "DocumentMoniker": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\Teledoc REST API\\TeledocContext.cs",
+              "RelativeDocumentMoniker": "Teledoc REST API\\TeledocContext.cs",
+              "ToolTip": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\Teledoc REST API\\TeledocContext.cs",
+              "RelativeToolTip": "Teledoc REST API\\TeledocContext.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwB4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T18:58:49.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthorizationController.cs",
+              "DocumentMoniker": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\Teledoc REST API\\Controllers\\AuthorizationController.cs",
+              "RelativeDocumentMoniker": "Teledoc REST API\\Controllers\\AuthorizationController.cs",
+              "ToolTip": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\Teledoc REST API\\Controllers\\AuthorizationController.cs",
+              "RelativeToolTip": "Teledoc REST API\\Controllers\\AuthorizationController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAwHwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T11:59:59.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ClientController.cs",
               "DocumentMoniker": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\Teledoc REST API\\Controllers\\ClientController.cs",
               "RelativeDocumentMoniker": "Teledoc REST API\\Controllers\\ClientController.cs",
               "ToolTip": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\Teledoc REST API\\Controllers\\ClientController.cs",
               "RelativeToolTip": "Teledoc REST API\\Controllers\\ClientController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAIwJ8AAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAIwKwAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T15:59:14.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FounderController.cs",
+              "DocumentMoniker": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\Teledoc REST API\\Controllers\\FounderController.cs",
+              "RelativeDocumentMoniker": "Teledoc REST API\\Controllers\\FounderController.cs",
+              "ToolTip": "C:\\Users\\chesn\\YandexDisk\\repos\\N\\Teledoc REST API\\Teledoc REST API\\Controllers\\FounderController.cs",
+              "RelativeToolTip": "Teledoc REST API\\Controllers\\FounderController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAFUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T11:59:42.122Z",
               "EditorCaption": ""
             }
           ]

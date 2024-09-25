@@ -46,7 +46,7 @@ namespace Teledoc_REST_API.Middlewares
         private void SendBadRequest(string message)
         {
             context.Response.StatusCode = 401;
-            context.Response.WriteAsync(new UnauthorizedAccessException(message).ToJson());
+            context.Response.WriteAsync(new TextResponse(message).ToJson());
         }
         public bool AuthorizeToken(AuthorizationToken token)
         {

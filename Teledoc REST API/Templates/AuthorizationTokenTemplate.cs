@@ -6,8 +6,8 @@ namespace Teledoc_REST_API.Templates
 {
     public class AuthorizationTokenTemplate : IValidatableObject
     {
-        [Required]
-        public int Id { get; set; }
+        [Display]
+        public int? Id { get; set; }
 
         [Required]
         public int AuthorizationRight { get; set; }
@@ -16,7 +16,7 @@ namespace Teledoc_REST_API.Templates
         {
             using var dbContext = new TeledocContext();
 
-            if (dbContext.AuthorizationTokens.FirstOrDefault(i => i.Id == Id) == null)
+            if (dbContext.AuthorizationTokens.FirstOrDefault(i => i.Id == Id) == null && Id != null)
             {
                 yield return new ValidationResult("Token not found", new string[] { "Id" });
                 yield break;

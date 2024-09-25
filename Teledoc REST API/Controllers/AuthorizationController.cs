@@ -28,7 +28,7 @@ namespace Teledoc_REST_API.Controllers
         /// Получение информации о токене по Id
         /// </summary>
         [HttpGet("get_token")]
-        public IActionResult GetUser(int tokenId)
+        public IActionResult GetToken(int tokenId)
         {
             using var dbContext = new TeledocContext();
 
@@ -43,9 +43,12 @@ namespace Teledoc_REST_API.Controllers
         /// Генерация токена
         /// </summary>
         [HttpPost("create_token")]
-        public IActionResult CreateUser(AuthorizationTokenTemplate tokenTemplate)
+        public IActionResult CreateToken(AuthorizationTokenTemplate tokenTemplate)
         {
             using var dbContext = new TeledocContext();
+
+            if (tokenTemplate.Id != null)
+                return BadRequest(new TextResponse("Id must be null when creating a token"));
 
             Guid token = System.Guid.NewGuid();
             MD5 MD5Hash = MD5.Create();
@@ -98,6 +101,9 @@ namespace Teledoc_REST_API.Controllers
         {
             using var dbContext = new TeledocContext();
 
+            if (tokenTemplate.Id == null)
+                return BadRequest(new TextResponse("Id cannot be null when updating a token"));
+
             var token = AuthorizationMiddleware.GetAuthorizationToken(HttpContext);
 
             var updateToken = dbContext.AuthorizationTokens
@@ -116,11 +122,7 @@ namespace Teledoc_REST_API.Controllers
 
             dbContext.SaveChanges();
 
-            updateToken = dbContext.AuthorizationTokens
-                .Include(i => i.AuthorizationRightNavigation)
-                .FirstOrDefault(i => i.Id == tokenTemplate.Id);
-
-            return Ok(updateToken);
+            return GetToken(updateToken.Id);
         }
     }
 }
